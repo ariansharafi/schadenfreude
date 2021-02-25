@@ -1,0 +1,11 @@
+FONT COLOR AND SIZE 
+ <h style="background-color:orange; font-family:'Montserrat'; font-size:100%;">scahdenfruede</h>
+ <p style="background-color:yellow; font-family:'Quicksand'; font-size:100%;">ADD A DESCRIPTION HERE</p>
+ <p style="background-color:gray;   font family:'Cabin'; font-size:100%;"> ADD A DESCRIPTION HERE </p>
+--------------------------------------------------------------------------------------------------------------
+RGB 
+ ORANGE: <p1 style="background-color:rgb(245, 167, 66);">ADD A DESCRIPTION</p1>
+ YELLOW <p1 style="background-color:rgb(255,255,0);">ADD A DESCRIPTION</p1>
+ BLACK <p1 style="background-color:rgb(0,0,0);">ADD A DESCRIPTION</p1>
+ WHITE <p1 style="background-color:rgb(255,255,255);">ADD A DESCRIPTION</p1>
+ GRAY <p1 style="background-color:rgb(128,128,128);">ADD A DESCRIPTION</p1>
