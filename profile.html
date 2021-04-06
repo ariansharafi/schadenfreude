@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="UTF-8">
+    <title>My Profile</title>
+ </head>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<style>
+body {
+  	background-image: url('https://www.xmple.com/wallpaper/yellow-orange-	gradient-linear-1920x1080-c2-ffff00-ff4500-a-105-f-14.svg');
+ 	 background-repeat: no-repeat;
+ 	 background-attachment: fixed;  
+ 	 background-size: cover;
+	 font-family: 'Montserrat';font-size: 13px;
+    }
+	</style>
+</body>
+
+<body>
+	 <div>
+    		<h1>Schadenfreude</h1>
+     </div>
+</body>
+
+<style>	
+	.button5 {
+ 	 background-color: white;
+ 	 color: black;
+	  border: 2px solid #555555;
+	}
+	.button5:hover {
+	  background-color: #555555;
+	  color: white;
+	}
+	</style>
+</body>
+
+<style>
+    .button {
+ 	 border: none;
+ 	 color: white;
+  	padding: 10px 10px;
+  	text-align: center;
+  	text-decoration: none;
+ 	 display: inline-block;
+    margin: 4px 2px;
+  	transition-duration: 0.6s;
+ 	 cursor: pointer;
+     font-family: 'Montserrat';font-size: 13px;
+	}
+
+	.button1 {
+ 	 background-color: #fff804; 
+  	color: black; 
+ 	 border: none;
+	}
+
+	.button1:hover {
+ 	 background-color: #000000;
+	  color: white;
+	}
+    
+    .button2 {
+ 	 background-color: #fff600; 
+  	color: black; 
+ 	 border: none;
+	}
+
+	.button2:hover {
+ 	 background-color: #000000;
+	  color: white;
+	}
+    
+    .button3 {
+ 	 background-color: #fff600; 
+  	color: black; 
+ 	 border: none;
+	}
+
+	.button3:hover {
+ 	 background-color: #000000;
+	  color: white;
+	}
+    
+    .button4 {
+ 	 background-color: #fff200; 
+  	color: black; 
+ 	 border: none;
+	}
+
+	.button4:hover {
+ 	 background-color: #000000;
+	  color: white;
+	}
+    
+    .button5 {
+ 	 background-color: #fff004; 
+  	color: black; 
+ 	 border: none;
+	}
+
+	.button5:hover {
+ 	 background-color: #000000;
+	  color: white;
+	}
+    
+    .button6 {
+ 	 background-color: #ffeb00; 
+  	color: black; 
+ 	 border: none;
+	}
+
+	.button6:hover {
+ 	 background-color: #000000;
+	  color: white;
+	}
+
+</style>
+
+<body>
+	<div>
+    	 <button onclick="myFunction()" class="button button1">Profile</button>
+        <script>
+			function myFunction() {
+	 		 location.replace("https://www.youtube.com/")
+			}
+	   	</script>
+     
+         <button onclick="myFunction()" class="button button2">
+            About Us</button>
+ 	    <script>
+			function myFunction() {
+	 		 location.replace("https://www.youtube.com/")
+			}
+	    </script>
+         
+         <button onclick="myFunction()" class="button button3">
+            Help</button>
+ 			<script>
+			function myFunction() {
+	 		 location.replace("https://www.youtube.com/")
+			}
+	   	   </script>
+           
+           <button onclick="myFunction()" class="button button4">
+            Comics</button>
+ 			<script>
+			function myFunction() {
+	 		 location.replace("https://www.youtube.com/")
+			}
+	   	   </script>
+           
+           <button onclick="myFunction()" class="button button5">
+            Create A Comic</button>
+ 			<script>
+			function myFunction() {
+	 		 location.replace("https://www.youtube.com/")
+			}
+	   	   </script>
+           
+           <button onclick="myFunction()" class="button button6">
+            Gallery</button>
+ 			<script>
+			function myFunction() {
+	 		 location.replace("https://youtu.be/DLzxrzFCyOs")
+			}
+	   	   </script>
+      </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #ffe905;
+  border: solid 1px #000000;
+}
+
+#panel {
+  padding: 10px;
+  display: none;
+}
+</style>
+<body> 
+<div id="flip">Profile</div>
+</body>
+
+<style>
+.row {
+  display: grid;
+
+  box-sizing: border-box;
+  width: 1000px;
+  height: 500px;
+  margin-left: 530px;
+  margin-right: auto;
+  margin-top: 470px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+.profilepic {
+  position: absolute;
+  left: 50%;
+  transform: translate(-45%, 0%);
+}
+.header {
+  position: absolute;
+  left: 47.3%;
+  top: 23%;
+}
+.bio {
+  position: absolute;
+  left: 45%;
+  top: 26%;
+}
+.featured {
+  position: absolute;
+  left: 48.5%;
+  top: 29%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 350px;
+  width: 250px;
+  padding: 4px
+}
+</style>
+</head>
+<body>
+<div class="profilepic">
+	<img 	src="https://i.pinimg.com/originals/0e/78/8c/0e788c1f410cb	b2236481cdb89e0bf48.jpg"
+     width="100" 
+     height="100" />
+</div>
+<div class="header">
+	<h2>Your Profile</h2>
+</div>
+<div class="bio">
+	<h3>A comic artist based in CA</h4>
+</div>
+<div class="featured">
+	<h3><strong>Gallery</strong></h3>
+</div>
+<div class="row">
+  <div class="column">
+    <img 	src="https://st2.depositphotos.com/4323461/7106/v/600/depo	sitphotos_71060077-stock-illustration-man-and-woman-	looking-at.jpg">
+    <img src="https://media.gettyimages.com/photos/amazing-	ghost-stories-cover-features-an-illustration-of-a-man-and-	in-picture-id1124769834?s=612x612">
+    <img src="https://t3.ftcdn.net/jpg/02/73/95/60/360_F_	273956069_iLiKvKcgLnK5KKZHpm9EUhFfN4A3z42X.jpg">
+  </div>
+  <div class="column">
+    <img src="https://media.istockphoto.com/vectors/comic-book-	cover-page-city-superhero-empty-comics-magazine-covers-	vector-id1085939882?k=6&m=1085939882&s=612x612&w=0	&h=F6ah0COyMvrsPWNX-DZ7jaLkq0q-GHiufgt9Vqn9nCk=">
+    <img src="https://as2.ftcdn.net/jpg/01/78/64/91/500_F_	178649131_YJhjSQHt2xoIgzBcrJppVk06c3foDf2b.jpg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?	q=tbn:ANd9GcQC2lIljm6KqC7rEDIe-HedNG-	JZ_niqx8uCw&usqp=CAU">
+  </div>
+  <div class="column">
+    <img src="https://images-na.ssl-images-	amazon.com/images/I/A1HknaSnSfL.jpg">
+    <img src="https://www.brooklyncomicshop.com/BCS/wp-	content/uploads/2020/02/Black-Widow-1-v3-Brooklyn-Comic-	Shop.jpeg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?	q=tbn:ANd9GcRPFnOEaubpcGYMkDqMkB-eoqlrn44	_UAsQnw&usqp=CAU">
+  </div>
+</body>
+
+</html>
